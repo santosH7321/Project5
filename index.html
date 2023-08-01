@@ -8,8 +8,8 @@
     <title>ModernWeb</title>
 </head>
 <body>
-    <section class="bg-[url('https://images.pexels.com/photos/16776159/pexels-photo-16776159/free-photo-of-water-around-rocks-on-shore.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')] bg-no-repeat bg-cover h-[1000px] w-[500]">
-        <div class="flex justify-around ">
+    <section class="bg-[url('https://images.pexels.com/photos/16776159/pexels-photo-16776159/free-photo-of-water-around-rocks-on-shore.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')] bg-no-repeat bg-cover h-[1000px] w-[100wh]">
+        <div class="flex justify-around sm:items-center">
             <div class="text-4xl font-medium text-white">
                 <h1>Welcome</h1>
             </div>
@@ -56,8 +56,8 @@
                 <h1 class="text-6xl font-medium m-5">Santosh Kumar</h1>
                 <p class="text-xl font-semibold m-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae iusto nulla quos qui saepe autem adipisci, fuga quasi tenetur possimus eligendi. Dolor, nesciunt. Inventore facilis soluta, exercitationem quos error rerum quasi culpa voluptatem sunt numquam autem doloribus id aperiam enim odit, omnis veritatis cum! Praesentium laborum doloribus facilis nemo quia.</p>
 
-                <button class=" text-2xl font-medium bg-red-500 rounded-md p-3 m-5 hover:bg-teal-500">Connect With Linkedin
-                    <i class="fa-solid fa-arrow-right "></i>
+                <button class=" text-2xl font-medium bg-red-500 rounded-md p-3 m-5 hover:bg-teal-500"> <a href="https://www.linkedin.com/in/santosh-kumar-a371a4235/" target="_blank">Connect With Linkedin
+                    <i class="fa-solid fa-arrow-right "></i></a>
                 </button>
 
              </div>
@@ -119,8 +119,8 @@
         <div class="flex justify-center items-center m-20 ">
             <div class="mt-20 ">
                 <h2 class="text-3xl font-medium text-white m-5 ">My creative skills & experiences.</h2>
-                <p class="text-xl font-semibold text-white m-5">Hey everyone Santosh here!!! Enthusiastic and curious to learn new skills!! I am a computer science undergrad at UCET VBU. Being from a tech background I am interested in programming ( C/C++) Data Structures and competitive programming. I am also a full stack developer. You can check out my projects at GitHub .</p>
-                <button class="text-2xl font-medium text-white bg-red-500 p-3 rounded m-5 hover:bg-teal-500">Connect With GitHub <i class="fa-solid fa-arrow-right "></i></button>
+                <p class="text-xl font-semibold text-white m-5">Hey everyone Santosh here!!! Enthusiastic and curious to learn new skills!! I am a computer science undergrad at GEC Jamui. Being from a tech background I am interested in programming ( C/C++) Data Structures and competitive programming. I am also a full stack developer. You can check out my projects at GitHub .</p>
+                <button class="text-2xl font-medium text-white bg-red-500 p-3 rounded m-5 hover:bg-teal-500"> <a href="https://github.com/santosH7321" target="_blank">Connect With GitHub <i class="fa-solid fa-arrow-right "></i></a></button>
             </div>
             <div class="text-2xl font-medium text-white w-full ">
                 <p >⭐ Web Development</p>
@@ -147,7 +147,7 @@
                 <input type="text" class="p-2 pr-20 pl-20 rounded m-1 ">
                 <p class="text-2xl font-medium m-1  text-white">Textarea</p>
                 <textarea class="p-2 pr-20 pl-20 rounded m-1 block" cols="23" rows="5"></textarea>
-                <button class="flex justify-center text-2xl font-medium bg-red-500 rounded pl-20 pr-20 p-3 m-5 text-white">Send</button>
+                <button class="flex justify-center text-2xl font-medium bg-red-500 rounded pl-20 pr-20 p-3 m-5 text-white"><a href="#">Send<i class="fa-solid fa-arrow-right mt-2 ml-2 "></i></a></button>
             </div>
         </div>
     </section>
@@ -156,24 +156,26 @@
         <div class="flex justify-around ">
             <!-- Logo -->
             <div class="text-5xl font-medium mt-20 ">
-                Logo
+               <a href="#" id="Home">Logo</a>
             </div>
             <!-- Media -->
             <div>
                 <p class="text-3xl font-medium mt-20 ">Social Media</p>
-                <i class="fa-brands fa-github m-3"></i>
-                <i class="fa-brands fa-twitter m-3"></i>
-                <i class="fa-brands fa-facebook m-3"></i>
-                <i class="fa-brands fa-linkedin m-3"></i>
-                <i class="fa-brands fa-instagram m-3"></i>
+               <a href="https://github.com/santosH7321?tab=overview&from=2023-08-01&to=2023-08-01"> <i class="fa-brands fa-github m-3 "></i></a>
+
+               <a href="#"><i class="fa-brands fa-twitter m-3"></i></a>
+
+                <a href="#"><i class="fa-brands fa-facebook m-3"></i></a>
+                <a href="https://www.linkedin.com/in/santosh-kumar-a371a4235/"><i class="fa-brands fa-linkedin m-3"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram m-3"></i></a>
             </div>
-            <div class="list-none ">
-                <p class="text-2xl font-medium mt-3 ">Header</p>
-                <li class="cursor-pointer" id="Home">Home</li>
-                <li class="cursor-pointer" id="About">About</li>
-                <li class="cursor-pointer" id="Skill">Skills</li>
-                <li class="cursor-pointer" id="Project">Project</li>
-                <li class="cursor-pointer" id="Contact">Contact</li>
+            <div class="list-none mt-20 ">
+                 <li class="text-xl font-semibold"><a href="#">Home</a></li>
+                <li class="text-xl font-semibold"><a href="#">About</a></li>
+                <li class="text-xl font-semibold" id="Project"><a href="#">Projects</a></li>
+                <li class="text-xl font-semibold" id="Skill"><a href="#">Skills</a></li>
+                <li class="text-xl font-semibold" id="Contact"><a href="#">Contact</a></li>
+                
             </div>
         </div>
     </footer>

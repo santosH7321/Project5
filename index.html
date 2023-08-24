@@ -1,183 +1,302 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/6521257675.js" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/6521257675.js"
+      crossorigin="anonymous"
+    ></script>
     <title>ModernWeb</title>
-</head>
-<body>
-    <section class="bg-[url('https://images.pexels.com/photos/16776159/pexels-photo-16776159/free-photo-of-water-around-rocks-on-shore.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')] bg-no-repeat bg-cover h-[1000px] w-[100wh]">
-        <div class="flex justify-around sm:items-center">
-            <div class="text-4xl font-medium text-white">
-                <h1>Welcome</h1>
-            </div>
-            <div>
-                <il class="flex gap-20 text-xl font-semibold m-2 cursor-pointer text-white">
-                    <nav class="hover:text-red-500"><a href="#Home">Home</a></nav>
-                    <nav  class="hover:text-red-500"> <a href="#About">About</a></nav>
-                    <nav  class="hover:text-red-500"><a href="#Projects">Projects</a></nav>
-                    <nav  class="hover:text-red-500"><a href="#Skill">Skills</a></nav>
-                    <nav  class="hover:text-red-500"><a href="#Contact">Contact</a></nav>
-                </il>
-            </div>
-            <div class="flex gap-20 text-xl font-semibold ">
-                <button class="text-white bg-red-500 rounded-md p-2 hover:bg-teal-500 ">SignIn</button>
-                <button class="text-white bg-red-500 rounded-md p-2 hover:bg-teal-500">SignUp</button>
-            </div>
+  </head>
+  <body>
+   
+    <section
+      class="bg-[url('https://images.pexels.com/photos/16776159/pexels-photo-16776159/free-photo-of-water-around-rocks-on-shore.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')] bg-no-repeat bg-cover h-[1000px] w-full"
+    >
+      <div class="flex justify-around">
+        <div class="text-4xl font-medium text-white">
+          <h1 class="max-md:text-4xl ">Welcome</h1>
         </div>
-        <div>
-            <div class="flex justify-center items-center m-20">
-                <h1 class=" text-8xl text-white font-medium m-20">ADVENTURE</h1>
-            </div>
-            <div class="flex justify-center ">
-                <button class="text-2xl font-semibold bg-red-500 text-white p-3 rounded hover:bg-teal-500">
-                    Downlode my resume <i class="fa-solid fa-arrow-right "></i></button> 
-            </div>
-           
+        <div class="max-md:hidden">
+          <il
+            class="flex gap-20 text-xl font-semibold m-2 cursor-pointer text-white "
+          >
+            <nav class="hover:text-red-500"><a href="#Home">Home</a></nav>
+            <nav class="hover:text-red-500"><a href="#About">About</a></nav>
+            <nav class="hover:text-red-500">
+              <a href="#Projects">Projects</a>
+            </nav>
+            <nav class="hover:text-red-500"><a href="#Skill">Skills</a></nav>
+            <nav class="hover:text-red-500"><a href="#Contact">Contact</a></nav>
+          </il>
         </div>
-    </section>
-    
-    <!-- Hero Section -->
-        <section class="bg-[url('https://images.pexels.com/photos/4220967/pexels-photo-4220967.jpeg?auto=compress&cs=tinysrgb&w=600')]  bg-no-repeat bg-cover  h-[1000px] w-full" >
-        <div class="flex justify-center font-medium">
-            <h1 class="flex justify-center text-white text-6xl mt-20 " id="About">About Me</h1>
-        </div>
-        <div class="flex justify-center items-center m-20 ">
-            <div class="w-full mt-20">
-                <!-- image -->
-                <img class="rounded mt-10 " src="https://images.pexels.com/photos/17771457/pexels-photo-17771457/free-photo-of-santosh7321.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load "
-                 alt="">
-            </div>
+        <div class="flex gap-20 text-xl font-semibold max-md:hidden">
+          <button
+            class="text-white bg-red-500 rounded-md p-2 hover:bg-teal-500"
+          >
+            Login
+          </button>
         
-            <div class="text-white pl-20 mt-20 ">
-                <p class="text-2xl font-semibold m-5">Hii my name is</p>
-                <h1 class="text-6xl font-medium m-5">Santosh Kumar</h1>
-                <p class="text-xl font-semibold m-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae iusto nulla quos qui saepe autem adipisci, fuga quasi tenetur possimus eligendi. Dolor, nesciunt. Inventore facilis soluta, exercitationem quos error rerum quasi culpa voluptatem sunt numquam autem doloribus id aperiam enim odit, omnis veritatis cum! Praesentium laborum doloribus facilis nemo quia.</p>
-
-                <button class=" text-2xl font-medium bg-red-500 rounded-md p-3 m-5 hover:bg-teal-500"> <a href="https://www.linkedin.com/in/santosh-kumar-a371a4235/" target="_blank">Connect With Linkedin
-                    <i class="fa-solid fa-arrow-right "></i></a>
-                </button>
-
-             </div>
         </div>
-    </section> 
+        <a href="#" class="hidden max-md:block text-white bg-gray-400 p-3 rounded"><i class="fa-solid fa-bars"></i></a>
+      </div>
+      <div>
+        <div class="flex justify-center items-center m-20 ">
+          <h1 class="text-8xl text-white font-medium m-20 max-sm:text-6xl">ADVENTURE</h1>
+        </div>
+        <div class="flex justify-center">
+          <button
+            class="text-2xl font-semibold bg-red-500 text-white p-3 rounded hover:bg-teal-500"
+          >
+            Downlode my resume <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hero Section -->
+    <section
+      class="bg-[url('https://images.pexels.com/photos/4220967/pexels-photo-4220967.jpeg?auto=compress&cs=tinysrgb&w=600')] bg-no-repeat bg-cover h-[1000px] w-full"
+    >
+      <div class="flex justify-center font-medium">
+        <h1 class="flex justify-center text-white text-6xl mt-20" id="About">
+          About Me
+        </h1>
+      </div>
+      <div class="flex justify-center items-center m-20">
+        <div class="w-full">
+          <!-- image -->
+          <img
+            class="rounded w-[100%]"
+            src="https://images.pexels.com/photos/17771457/pexels-photo-17771457/free-photo-of-santosh7321.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load "
+            alt=""
+          />
+        </div>
+
+        <div class="text-white pl-20 mt-10 text-[40vh]">
+          <p class="text-2xl font-semibold m-5">Hii my name is</p>
+          <h1 class="text-6xl font-medium m-5">Santosh Kumar</h1>
+          <p class="text-xl font-semibold m-5">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae iusto
+            nulla quos qui saepe autem adipisci, fuga quasi tenetur possimus
+            eligendi. Dolor, nesciunt. Inventore facilis soluta, exercitationem
+            quos error rerum quasi culpa voluptatem sunt numquam autem doloribus
+            id aperiam enim odit, omnis veritatis cum! Praesentium laborum
+            doloribus facilis nemo quia.
+          </p>
+
+          <button
+            class="text-2xl font-medium bg-red-500 rounded-md p-3 m-5 hover:bg-teal-500">
+            <a href="https://www.linkedin.com/in/santosh-kumar-a371a4235/" target="_blank"
+              >Connect With Linkedin <i class="fa-solid fa-arrow-right"></i></a>
+          </button>
+        </div>
+      </div>
+    </section>
     <!-- Page Three -->
-    <section class="bg-[url('https://images.pexels.com/photos/1142950/pexels-photo-1142950.jpeg?auto=compress&cs=tinysrgb&w=600')] bg-no-repeat bg-cover  h-[1100px] w-full ">
-
-        <div class="flex justify-center font-medium">
-            <h1 class="flex justify-center text-white text-6xl mt-20 " id="Projects">Projects</h1>
+    <section
+      class="bg-[url('https://images.pexels.com/photos/1142950/pexels-photo-1142950.jpeg?auto=compress&cs=tinysrgb&w=600')] bg-no-repeat bg-cover h-[1100px] w-full"
+    >
+      <div class="flex justify-center font-medium">
+        <h1 class="flex justify-center text-white text-6xl mt-20" id="Projects">
+          Projects
+        </h1>
+      </div>
+      <!-- Project Section 1 -->
+      <div class="">
+        <div class="flex justify-evenly items-center gap-5 m-20 ">
+          <div class="h-[350px] w-[300px] gap-x-10 rounded bg-yellow-50">
+            <img src="./projectImage/Project1.jpg" alt="" />
+            <h1 class="text-2xl font-semibold m-2">Project 1</h1>
+            <p class="mt-2 m-2">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Laudantium tempore pariatur molestias quae odit consectetur labore
+              soluta iusto
+            </p>
+            <span class="text-sky-300 flex justify-end mr-5 cursor-pointer"
+              >See more <i class="fa-solid fa-arrow-right m-2"></i
+            ></span>
+          </div>
+          <div class="h-[350px] w-[300px] gap-x-10  rounded bg-yellow-100">
+            <img src="./projectImage/Project2.jpg" alt="" />
+            <h1 class="text-2xl font-semibold m-2">Project 2</h1>
+            <p class="mt-2 m-2">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Laudantium tempore pariatur molestias quae odit consectetur labore
+              soluta iusto
+            </p>
+            <span class="text-sky-300 flex justify-end mr-10 cursor-pointer"
+              >See more <i class="fa-solid fa-arrow-right m-2"></i
+            ></span>
+          </div>
+          <div class="h-[350px] w-[300px] gap-x-10 rounded bg-yellow-100">
+            <img src="./projectImage/Project3.jpg" alt="" />
+            <h1 class="text-2xl font-semibold m-2">Project 3</h1>
+            <p class="mt-2 m-2">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Laudantium tempore pariatur molestias quae odit consectetur labore
+              soluta iusto
+            </p>
+            <span class="text-sky-300 flex justify-end mr-10 cursor-pointer"
+              >See more <i class="fa-solid fa-arrow-right m-2"></i
+            ></span>
+          </div>
         </div>
-        <!-- Project Section 1 -->
-        <div class="">
-            <div class="flex justify-around m-20 ">
-                <div class="h-[350px] w-[300px]  rounded bg-yellow-50"> <img src="./projectImage/Project1.jpg" alt="">
-                    <h1 class="text-2xl font-semibold m-2 ">Project 1</h1>
-                    <p class="mt-2 m-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium tempore pariatur molestias quae odit consectetur labore soluta iusto</p>
-                    <span class="text-sky-300 flex justify-end mr-5  cursor-pointer">See more <i class="fa-solid fa-arrow-right m-2 "></i></span>
-                </div>
-                <div class="h-[350px] w-[300px] rounded bg-yellow-100"><img src="./projectImage/Project2.jpg" alt="">
-                    <h1 class="text-2xl font-semibold m-2 ">Project 2</h1>
-                    <p class="mt-2 m-2 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium tempore pariatur molestias quae odit consectetur labore soluta iusto</p>
-                    <span class="text-sky-300 flex justify-end mr-10 cursor-pointer">See more <i class="fa-solid fa-arrow-right m-2 "></i></span>
-                </div>
-                <div class="h-[350px] w-[300px] rounded bg-yellow-100"><img src="./projectImage/Project3.jpg" alt="">
-                    <h1 class="text-2xl font-semibold m-2">Project 3</h1>
-                    <p class="mt-2 m-2 ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium tempore pariatur molestias quae odit consectetur labore soluta iusto</p>
-                    <span class="text-sky-300 flex justify-end mr-10 cursor-pointer">See more <i class="fa-solid fa-arrow-right m-2 "></i></span>
-                </div>
-            </div>
 
-            <div class="flex justify-around m-20 ">
-                <div class="h-[350px] w-[300px] rounded  bg-green-600"><img src="./projectImage/Project4.jpg" alt="">
-                    <h1 class="text-2xl font-semibold m-2">Project 4</h1>
-                    <p class="mt-2 m-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium tempore pariatur molestias quae odit consectetur labore soluta iusto</p>
-                    <span class="text-sky-300 flex justify-end mr-10 cursor-pointer">See more <i class="fa-solid fa-arrow-right m-2 "></i></span>
-                </div>
-                <div class="h-[350px] w-[300px]  rounded bg-green-500"><img src="./projectImage/Project5.jpg" alt="">
-                    <h1 class="text-2xl font-semibold m-2">Project 5</h1>
-                    <p class="mt-2 m-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium tempore pariatur molestias quae odit consectetur labore soluta iusto</p>
-                    <span class="text-sky-300 flex justify-end mr-10 cursor-pointer">See more <i class="fa-solid fa-arrow-right m-2 "></i></span>
-                </div>
-                <div class="h-[350px] w-[300px]  rounded  bg-green-500"><img src="./projectImage/Project6.jpg" alt="">
-                    <h1 class="text-2xl font-semibold m-2">Project 6</h1>
-                    <p class="mt-2 m-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium tempore pariatur molestias quae odit consectetur labore soluta iusto</p>
-                    <span class="text-sky-300 flex justify-end mr-10 cursor-pointer">See more <i class="fa-solid fa-arrow-right m-2 "></i></span>
-                </div>
-            </div>
+        <div class="flex justify-evenly gap-5 m-20">
+          <div class="h-[350px] w-[300px] gap-x-10 rounded bg-green-600">
+            <img src="./projectImage/Project4.jpg" alt="" />
+            <h1 class="text-2xl font-semibold m-2">Project 4</h1>
+            <p class="mt-2 m-2">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Laudantium tempore pariatur molestias quae odit consectetur labore
+              soluta iusto
+            </p>
+            <span class="text-sky-300 flex justify-end mr-10 cursor-pointer"
+              >See more <i class="fa-solid fa-arrow-right m-2"></i
+            ></span>
+          </div>
+          <div class="h-[350px] w-[300px] gap-x-10 rounded bg-green-500">
+            <img src="./projectImage/Project5.jpg" alt="" />
+            <h1 class="text-2xl font-semibold m-2">Project 5</h1>
+            <p class="mt-2 m-2">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Laudantium tempore pariatur molestias quae odit consectetur labore
+              soluta iusto
+            </p>
+            <span class="text-sky-300 flex justify-end mr-10 cursor-pointer"
+              >See more <i class="fa-solid fa-arrow-right m-2"></i
+            ></span>
+          </div>
+          <div class="h-[350px] w-[300px] gap-x-10 rounded bg-green-500">
+            <img src="./projectImage/Project6.jpg" alt="" />
+            <h1 class="text-2xl font-semibold m-2">Project 6</h1>
+            <p class="mt-2 m-2">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Laudantium tempore pariatur molestias quae odit consectetur labore
+              soluta iusto
+            </p>
+            <span class="text-sky-300 flex justify-end mr-10 cursor-pointer"
+              >See more <i class="fa-solid fa-arrow-right m-2"></i
+            ></span>
+          </div>
         </div>
-       
+      </div>
     </section>
 
     <!-- Page 4 -->
-    <section class="bg-[url('https://images.pexels.com/photos/35796/amazing-beautiful-beauty-blue.jpg?auto=compress&cs=tinysrgb&w=600')] bg-no-repeat bg-cover  h-[1000px] w-full">
-
-        <div class="flex justify-center font-medium">
-            <h1 class="flex justify-center text-white text-6xl mt-20 " id="Skill">Skills</h1>
+    <section
+      class="bg-[url('https://images.pexels.com/photos/35796/amazing-beautiful-beauty-blue.jpg?auto=compress&cs=tinysrgb&w=600')] bg-no-repeat bg-cover h-[1000px] w-full"
+    >
+      <div class="flex justify-center font-medium">
+        <h1 class="flex justify-center text-white text-6xl mt-20" id="Skill">
+          Skills
+        </h1>
+      </div>
+      <div class="flex justify-center items-center m-20">
+        <div class="mt-20">
+          <h2 class="text-3xl font-medium text-white m-5">
+            My creative skills & experiences.
+          </h2>
+          <p class="text-xl font-semibold text-white m-5">
+            Hey everyone Santosh here!!! Enthusiastic and curious to learn new
+            skills!! I am a computer science undergrad at GEC Jamui. Being from
+            a tech background I am interested in programming ( C/C++) Data
+            Structures and competitive programming. I am also a full stack
+            developer. You can check out my projects at GitHub .
+          </p>
+          <button
+            class="text-2xl font-medium text-white bg-red-500 p-3 rounded m-5 hover:bg-teal-500 max-md:sticky"
+          >
+            <a href="https://github.com/santosH7321" target="_blank"
+              >Connect With GitHub <i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </button>
         </div>
-        <div class="flex justify-center items-center m-20 ">
-            <div class="mt-20 ">
-                <h2 class="text-3xl font-medium text-white m-5 ">My creative skills & experiences.</h2>
-                <p class="text-xl font-semibold text-white m-5">Hey everyone Santosh here!!! Enthusiastic and curious to learn new skills!! I am a computer science undergrad at GEC Jamui. Being from a tech background I am interested in programming ( C/C++) Data Structures and competitive programming. I am also a full stack developer. You can check out my projects at GitHub .</p>
-                <button class="text-2xl font-medium text-white bg-red-500 p-3 rounded m-5 hover:bg-teal-500"> <a href="https://github.com/santosH7321" target="_blank">Connect With GitHub <i class="fa-solid fa-arrow-right "></i></a></button>
-            </div>
-            <div class="text-2xl font-medium text-white w-full ">
-                <p >⭐ Web Development</p>
-                <p>⭐C/C++</p>
-                <p>⭐Core Java</p>
-                <p>⭐Data structures and algorithms</p>
-            </div>
+        <div class="text-2xl font-medium text-white w-full flex-wrap ">
+          <p>⭐ Web Development</p>
+          <p>⭐C/C++</p>
+          <p>⭐Core Java</p>
+          <p>⭐Data structures and algorithms</p>
         </div>
+      </div>
     </section>
     <!-- Page 5 -->
 
-    <section class="bg-[url('https://images.pexels.com/photos/396547/pexels-photo-396547.jpeg?auto=compress&cs=tinysrgb&w=600')] bg-no-repeat bg-cover  h-[1000px] w-full">
-
-    <div class="flex justify-center font-medium">
-        <h1 class="flex justify-center text-white text-6xl mt-20 " id="Contact">Contact</h1>
-    </div>
-        <div class="flex justify-center m-20 border-solid border-2 border-gray-300">
-            <div>
-                <p class="text-2xl font-medium m-1  text-white">Name</p>
-                <input type="text" class="p-2 pr-20 pl-20 rounded m-1 ">
-                <p class="text-2xl font-medium m-1  text-white">Email</p>
-                <input type="email" class="p-2 pr-20 pl-20 rounded m-1">
-                <p class="text-2xl font-medium m-1  text-white">Contact</p>
-                <input type="text" class="p-2 pr-20 pl-20 rounded m-1 ">
-                <p class="text-2xl font-medium m-1  text-white">Textarea</p>
-                <textarea class="p-2 pr-20 pl-20 rounded m-1 block" cols="23" rows="5"></textarea>
-                <button class="flex justify-center text-2xl font-medium bg-red-500 rounded pl-20 pr-20 p-3 m-5 text-white"><a href="#">Send<i class="fa-solid fa-arrow-right mt-2 ml-2 "></i></a></button>
-            </div>
+    <section
+      class="bg-[url('https://images.pexels.com/photos/396547/pexels-photo-396547.jpeg?auto=compress&cs=tinysrgb&w=600')] bg-no-repeat bg-cover h-[1000px] w-full" 
+    >
+      <div class="flex justify-center font-medium">
+        <h1 class="flex justify-center text-white text-6xl mt-20 max-md:sticky" id="Contact">
+          Contact
+        </h1>
+      </div>
+      <div
+        class="flex justify-center m-20 border-solid border-2 border-gray-300 "
+      >
+        <div>
+          <p class="text-2xl font-medium m-1 text-white">Name</p>
+          <input type="text" class="p-2 pr-20 pl-20 rounded m-1" />
+          <p class="text-2xl font-medium m-1 text-white">Email</p>
+          <input type="email" class="p-2 pr-20 pl-20 rounded m-1" />
+          <p class="text-2xl font-medium m-1 text-white">Contact</p>
+          <input type="text" class="p-2 pr-20 pl-20 rounded m-1" />
+          <p class="text-2xl font-medium m-1 text-white">Textarea</p>
+          <textarea
+            class="p-2 pr-20 pl-20 rounded m-1 block"
+            cols="23"
+            rows="5"
+          ></textarea>
+          <button
+            class="flex justify-center text-2xl font-medium bg-red-500 rounded pl-20 pr-20 p-3 m-5 text-white"
+          >
+            <a href="#"
+              >Send<i class="fa-solid fa-arrow-right mt-2 ml-2"></i
+            ></a>
+          </button>
         </div>
+      </div>
     </section>
-    <hr>
+    <hr />
     <footer class="bg-black text-white h-[300px] w-full">
-        <div class="flex justify-around ">
-            <!-- Logo -->
-            <div class="text-5xl font-medium mt-20 ">
-               <a href="#" id="Home">Logo</a>
-            </div>
-            <!-- Media -->
-            <div>
-                <p class="text-3xl font-medium mt-20 ">Social Media</p>
-               <a href="https://github.com/santosH7321?tab=overview&from=2023-08-01&to=2023-08-01"> <i class="fa-brands fa-github m-3 "></i></a>
-
-               <a href="#"><i class="fa-brands fa-twitter m-3"></i></a>
-
-                <a href="#"><i class="fa-brands fa-facebook m-3"></i></a>
-                <a href="https://www.linkedin.com/in/santosh-kumar-a371a4235/"><i class="fa-brands fa-linkedin m-3"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram m-3"></i></a>
-            </div>
-            <div class="list-none mt-20 ">
-                 <li class="text-xl font-semibold"><a href="#">Home</a></li>
-                <li class="text-xl font-semibold"><a href="#">About</a></li>
-                <li class="text-xl font-semibold" id="Project"><a href="#">Projects</a></li>
-                <li class="text-xl font-semibold" id="Skill"><a href="#">Skills</a></li>
-                <li class="text-xl font-semibold" id="Contact"><a href="#">Contact</a></li>
-                
-            </div>
+      <div class="flex justify-around">
+        <!-- Logo -->
+        <div class="text-5xl font-medium mt-20">
+          <a href="#" id="Home">Logo</a>
         </div>
+        <!-- Media -->
+        <div>
+          <p class="text-3xl font-medium mt-20">Social Media</p>
+          <a
+            href="https://github.com/santosH7321?tab=overview&from=2023-08-01&to=2023-08-01"
+          >
+            <i class="fa-brands fa-github m-3"></i
+          ></a>
+
+          <a href="#"><i class="fa-brands fa-twitter m-3"></i></a>
+
+          <a href="#"><i class="fa-brands fa-facebook m-3"></i></a>
+          <a href="https://www.linkedin.com/in/santosh-kumar-a371a4235/"
+            ><i class="fa-brands fa-linkedin m-3"></i
+          ></a>
+          <a href="#"><i class="fa-brands fa-instagram m-3"></i></a>
+        </div>
+        <div class="list-none mt-20">
+          <li class="text-xl font-semibold"><a href="#">Home</a></li>
+          <li class="text-xl font-semibold"><a href="#">About</a></li>
+          <li class="text-xl font-semibold" id="Project">
+            <a href="#">Projects</a>
+          </li>
+          <li class="text-xl font-semibold" id="Skill">
+            <a href="#">Skills</a>
+          </li>
+          <li class="text-xl font-semibold" id="Contact">
+            <a href="#">Contact</a>
+          </li>
+        </div>
+      </div>
     </footer>
-</body>
+  </body>
 </html>

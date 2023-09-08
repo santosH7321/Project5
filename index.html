@@ -11,11 +11,11 @@
     <title>ModernWeb</title>
   </head>
   <body>
-   
+   <header class="">
     <section
-      class="bg-[url('https://images.pexels.com/photos/16776159/pexels-photo-16776159/free-photo-of-water-around-rocks-on-shore.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')] bg-no-repeat bg-cover h-[1000px] w-full"
+      class="bg-gray-900 "
     >
-      <div class="flex justify-around bg- p-3 pl-5 pr-5 bg-gray-900 ">
+      <div class="flex justify-around bg-gray-900 ">
         <div class="text-4xl font-medium text-white">
           <h1 class="max-md:text-4xl ">Welcome</h1>
         </div>
@@ -34,13 +34,13 @@
         </div>
         <div class="flex gap-20 text-xl font-semibold max-md:hidden">
           <button
-            class="text-white bg-yellow-400 rounded-md p-2 pl-5 pr-5 hover:bg-teal-500"
+            class="text-white bg-yellow-400 rounded-md p-2 pl-8 pr-8 hover:bg-teal-500"
           >
             Login
           </button>
         
         </div>
-        <a href="#" class="hidden max-md:block text-white bg-gray-400 p-3 rounded"><i class="fa-solid fa-bars"></i></a>
+        <a href="#" class="hidden max-md:block text-white  text-4xl rounded"><i class="fa-solid fa-bars"></i></a>
       </div>
       <div>
         <div class="flex justify-center items-center m-20 ">
@@ -48,7 +48,7 @@
         </div>
         <div class="flex justify-center">
           <button
-            class="text-2xl font-semibold bg-red-500 text-white p-3 rounded hover:bg-teal-500"
+            class="text-2xl font-semibold bg-red-500 text-white p-3 rounded hover:bg-teal-500 mb-20 "
           >
             Downlode my resume <i class="fa-solid fa-arrow-right"></i>
           </button>
@@ -57,34 +57,28 @@
     </section>
 
     <!-- Hero Section -->
-    <section
-      class="bg-[url('https://images.pexels.com/photos/4220967/pexels-photo-4220967.jpeg?auto=compress&cs=tinysrgb&w=600')] bg-no-repeat bg-cover h-[1000px] w-full"
-    >
-      <div class="flex justify-center font-medium">
-        <h1 class="flex justify-center text-white text-6xl mt-20" id="About">
+    <section id="About" >
+      <div class="bg-gray-900">
+      <div class="flex justify-center items-center font-medium text-white text-6xl">
           About Me
-        </h1>
       </div>
-      <div class="flex justify-center items-center m-20">
-        <div class="w-full">
+      <div class="flex justify-around items-center mt-[150px] gap-20 max-md:flex-wrap">
+        <div>
           <!-- image -->
           <img
-            class="rounded w-[100%]"
+            class="rounded ml-10 mb-20 "
             src="https://images.pexels.com/photos/17771457/pexels-photo-17771457/free-photo-of-santosh7321.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load "
             alt=""
           />
         </div>
 
-        <div class="text-white pl-20 mt-10 text-[40vh]">
-          <p class="text-2xl font-semibold m-5">Hii my name is</p>
-          <h1 class="text-6xl font-medium m-5">Santosh Kumar</h1>
-          <p class="text-xl font-semibold m-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae iusto
-            nulla quos qui saepe autem adipisci, fuga quasi tenetur possimus
+        <div class="text-white ml-[70px]">
+          <p class="text-2xl font-semibold">Hii my name is</p>
+          <h1 class="text-6xl font-medium">Santosh Kumar</h1>
+          <p class="text-xl font-semibold">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae iusto <br>
+            nulla quos qui saepe autem adipisci, fuga quasi tenetur possimus 
             eligendi. Dolor, nesciunt. Inventore facilis soluta, exercitationem
-            quos error rerum quasi culpa voluptatem sunt numquam autem doloribus
-            id aperiam enim odit, omnis veritatis cum! Praesentium laborum
-            doloribus facilis nemo quia.
           </p>
 
           <button
@@ -94,10 +88,11 @@
           </button>
         </div>
       </div>
+    </div>
     </section>
     <!-- Page Three -->
     <section
-      class="bg-[url('https://images.pexels.com/photos/1142950/pexels-photo-1142950.jpeg?auto=compress&cs=tinysrgb&w=600')] bg-no-repeat bg-cover h-[1100px] w-full"
+      class="bg-sky-900"
     >
       <div class="flex justify-center font-medium">
         <h1 class="flex justify-center text-white text-6xl mt-20" id="Projects">
@@ -105,8 +100,8 @@
         </h1>
       </div>
       <!-- Project Section 1 -->
-      <div class="">
-        <div class="flex justify-evenly items-center gap-5 m-20 ">
+      <div class="mt-20">
+        <div class="flex justify-center gap-[60px] max-md:flex-wrap">
           <div class="h-[350px] w-[300px] gap-x-10 rounded bg-yellow-50">
             <img src="./projectImage/Project1.jpg" alt="" />
             <h1 class="text-2xl font-semibold m-2">Project 1</h1>
@@ -131,7 +126,7 @@
               >See more <i class="fa-solid fa-arrow-right m-2"></i
             ></span>
           </div>
-          <div class="h-[350px] w-[300px] gap-x-10 rounded bg-yellow-100">
+          <div class="h-[350px] w-[300px] gap-x-10 rounded bg-yellow-100 mb-10">
             <img src="./projectImage/Project3.jpg" alt="" />
             <h1 class="text-2xl font-semibold m-2">Project 3</h1>
             <p class="mt-2 m-2">
@@ -144,8 +139,8 @@
             ></span>
           </div>
         </div>
-
-        <div class="flex justify-evenly gap-5 m-20">
+        <!-- Project section 2 -->
+        <div class="flex justify-center gap-[60px] max-md:flex-wrap">
           <div class="h-[350px] w-[300px] gap-x-10 rounded bg-green-600">
             <img src="./projectImage/Project4.jpg" alt="" />
             <h1 class="text-2xl font-semibold m-2">Project 4</h1>
@@ -170,10 +165,10 @@
               >See more <i class="fa-solid fa-arrow-right m-2"></i
             ></span>
           </div>
-          <div class="h-[350px] w-[300px] gap-x-10 rounded bg-green-500">
+          <div class="h-[350px] w-[300px] gap-x-10 rounded bg-green-500 mb-[120px] ">
             <img src="./projectImage/Project6.jpg" alt="" />
             <h1 class="text-2xl font-semibold m-2">Project 6</h1>
-            <p class="mt-2 m-2">
+            <p class="mt-2 m-2 ">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Laudantium tempore pariatur molestias quae odit consectetur labore
               soluta iusto
@@ -188,14 +183,14 @@
 
     <!-- Page 4 -->
     <section
-      class="bg-[url('https://images.pexels.com/photos/35796/amazing-beautiful-beauty-blue.jpg?auto=compress&cs=tinysrgb&w=600')] bg-no-repeat bg-cover h-[1000px] w-full"
+      class="bg-fuchsia-950"
     >
       <div class="flex justify-center font-medium">
         <h1 class="flex justify-center text-white text-6xl mt-20" id="Skill">
           Skills
         </h1>
       </div>
-      <div class="flex justify-center items-center m-20">
+      <div class="flex justify-center items-center max-md:flex-col">
         <div class="mt-20">
           <h2 class="text-3xl font-medium text-white m-5">
             My creative skills & experiences.
@@ -208,14 +203,14 @@
             developer. You can check out my projects at GitHub .
           </p>
           <button
-            class="text-2xl font-medium text-white bg-red-500 p-3 rounded m-5 hover:bg-teal-500 max-md:sticky"
+            class="text-2xl font-medium text-white bg-red-500 p-3 rounded m-5 mb-[150px] hover:bg-teal-500 max-md:sticky"
           >
             <a href="https://github.com/santosH7321" target="_blank"
               >Connect With GitHub <i class="fa-solid fa-arrow-right"></i
             ></a>
           </button>
         </div>
-        <div class="text-2xl font-medium text-white w-full flex-wrap ">
+        <div class="text-2xl font-medium text-white w-full flex-wrap mb-20">
           <p>⭐ Web Development</p>
           <p>⭐C/C++</p>
           <p>⭐Core Java</p>
@@ -223,34 +218,32 @@
         </div>
       </div>
     </section>
-    <!-- Page 5 -->
+    <!-- Contact -->
 
     <section
-      class="bg-[url('https://images.pexels.com/photos/396547/pexels-photo-396547.jpeg?auto=compress&cs=tinysrgb&w=600')] bg-no-repeat bg-cover h-[1000px] w-full" 
+      class="bg-emerald-900 " 
     >
-      <div class="flex justify-center font-medium">
-        <h1 class="flex justify-center text-white text-6xl mt-20 max-md:sticky" id="Contact">
+      <div class="flex justify-center items-center text-6xl pt-10 text-white font-medium">
           Contact
-        </h1>
       </div>
       <div
-        class="flex justify-center m-20 border-solid border-2 border-gray-300 "
+        class="flex justify-center items-center max-md:flex-col"
       >
-        <div>
+        <div class="items-center">
           <p class="text-2xl font-medium m-1 text-white">Name</p>
-          <input type="text" class="p-2 pr-20 pl-20 rounded m-1" />
+          <input type="text" class="p-2 pr-[145px] rounded m-1" />
           <p class="text-2xl font-medium m-1 text-white">Email</p>
-          <input type="email" class="p-2 pr-20 pl-20 rounded m-1" />
+          <input type="email" class="p-2 pr-[145px] rounded m-1" />
           <p class="text-2xl font-medium m-1 text-white">Contact</p>
-          <input type="text" class="p-2 pr-20 pl-20 rounded m-1" />
+          <input type="text" class="p-2 pr-[145px] rounded m-1" />
           <p class="text-2xl font-medium m-1 text-white">Textarea</p>
           <textarea
-            class="p-2 pr-20 pl-20 rounded m-1 block"
+            class="p-2 pr-[145px] rounded m-1 block"
             cols="23"
             rows="5"
           ></textarea>
           <button
-            class="flex justify-center text-2xl font-medium bg-red-500 rounded pl-20 pr-20 p-3 m-5 text-white"
+            class="flex justify-center text-2xl font-medium bg-red-500 rounded pl-20 pr-20 p-3 m-5 text-white mb-20"
           >
             <a href="#"
               >Send<i class="fa-solid fa-arrow-right mt-2 ml-2"></i
@@ -259,9 +252,9 @@
         </div>
       </div>
     </section>
-    <hr />
-    <footer class="bg-black text-white h-[300px] w-full">
-      <div class="flex justify-around">
+
+    <footer class="bg-black text-white ">
+      <div class="flex justify-around max-md:flex-col">
         <!-- Logo -->
         <div class="text-5xl font-medium mt-20">
           <a href="#" id="Home">Logo</a>
@@ -283,7 +276,7 @@
           ></a>
           <a href="#"><i class="fa-brands fa-instagram m-3"></i></a>
         </div>
-        <div class="list-none mt-20">
+        <div class="list-none m-20">
           <li class="text-xl font-semibold"><a href="#">Home</a></li>
           <li class="text-xl font-semibold"><a href="#">About</a></li>
           <li class="text-xl font-semibold" id="Project">
@@ -298,5 +291,6 @@
         </div>
       </div>
     </footer>
+  </header>
   </body>
 </html>
